@@ -15,6 +15,8 @@
 		1C5070AB1CB385C00004E818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5070A91CB385C00004E818 /* LaunchScreen.storyboard */; };
 		1C5070B61CB385C00004E818 /* _4_05_demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5070B51CB385C00004E818 /* _4_05_demo1Tests.m */; };
 		1C5070C11CB385C00004E818 /* _4_05_demo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5070C01CB385C00004E818 /* _4_05_demo1UITests.m */; };
+		1C5070D11CB387860004E818 /* bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5070CF1CB387860004E818 /* bViewController.m */; };
+		1C5070D21CB387860004E818 /* bViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5070D01CB387860004E818 /* bViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		1C5070BC1CB385C00004E818 /* 04_05_demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 04_05_demo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5070C01CB385C00004E818 /* _4_05_demo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_05_demo1UITests.m; sourceTree = "<group>"; };
 		1C5070C21CB385C00004E818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5070CE1CB387860004E818 /* bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bViewController.h; sourceTree = "<group>"; };
+		1C5070CF1CB387860004E818 /* bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bViewController.m; sourceTree = "<group>"; };
+		1C5070D01CB387860004E818 /* bViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				1C5070A91CB385C00004E818 /* LaunchScreen.storyboard */,
 				1C5070AC1CB385C00004E818 /* Info.plist */,
 				1C50709B1CB385C00004E818 /* Supporting Files */,
+				1C5070CE1CB387860004E818 /* bViewController.h */,
+				1C5070CF1CB387860004E818 /* bViewController.m */,
+				1C5070D01CB387860004E818 /* bViewController.xib */,
 			);
 			path = 04_05_demo1;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5070AB1CB385C00004E818 /* LaunchScreen.storyboard in Resources */,
+				1C5070D21CB387860004E818 /* bViewController.xib in Resources */,
 				1C5070A81CB385C00004E818 /* Assets.xcassets in Resources */,
 				1C5070A61CB385C00004E818 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5070A31CB385C00004E818 /* ViewController.m in Sources */,
+				1C5070D11CB387860004E818 /* bViewController.m in Sources */,
 				1C5070A01CB385C00004E818 /* AppDelegate.m in Sources */,
 				1C50709D1CB385C00004E818 /* main.m in Sources */,
 			);
@@ -418,10 +428,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1907878011@qq.com (9H225GCT9G)";
 				INFOPLIST_FILE = 04_05_demo1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-4-05-demo1.-4-05-demo1";
+				PRODUCT_BUNDLE_IDENTIFIER = "-04-05-deom1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a561b407-66f9-49c8-bf70-63fdbd01778f";
 			};
 			name = Debug;
 		};
@@ -429,10 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1907878011@qq.com (9H225GCT9G)";
 				INFOPLIST_FILE = 04_05_demo1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-4-05-demo1.-4-05-demo1";
+				PRODUCT_BUNDLE_IDENTIFIER = "-04-05-deom1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a561b407-66f9-49c8-bf70-63fdbd01778f";
 			};
 			name = Release;
 		};
@@ -501,6 +515,7 @@
 				1C5070C71CB385C00004E818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C5070C81CB385C00004E818 /* Build configuration list for PBXNativeTarget "04_05_demo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +524,7 @@
 				1C5070CA1CB385C00004E818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C5070CB1CB385C00004E818 /* Build configuration list for PBXNativeTarget "04_05_demo1UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +533,7 @@
 				1C5070CD1CB385C00004E818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
